@@ -1,0 +1,14 @@
+let counter = 0;
+const stepNumber = 7;
+const startNumber = 100;
+const endNumber = 0;
+var sum = 0;
+let currentNumber = startNumber;
+
+for (; currentNumber >= endNumber;) {
+    currentNumber -= stepNumber;
+    sum += stepNumber;
+    counter++;
+}
+
+console.log("the sum is " + sum);
